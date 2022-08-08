@@ -1,0 +1,45 @@
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
+}
+p.inset {border-style: inset;}
+p.test {
+  font-family: fantasy;
+  border-style: inset;
+  border-color: black;
+}
+
+div{
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 95px;
+  padding-left: 110px;
+}
+@keyframes test {
+  0% {background-color: white;}
+  25%{background-color: blue;}
+  50% {background-color: purple;}
+  75% {background-color: green;}
+  100% {background-color: red;}
+
+}
+div{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  animation-name: test;
+  animation-duration: 20s
+}
+video{
+  border-style: inset;
+  border-color: white;
+  align: center;
+}
+}
